@@ -11,7 +11,7 @@ function App() {
   useEffect(() => {
     // Подключаемся к нашему будущему серверу на Render (пока пишем localhost для тестов)
     const peer = new Peer({
-      host: 'https://twobackdis-cne-serr.onrender.com/', // При деплое заменишь на URL с Render.com
+      host: 'twobackdis-cne-serr.onrender.com/', // При деплое заменишь на URL с Render.com
       port: 443,
       path: '/peerjs',
       secure: true,
